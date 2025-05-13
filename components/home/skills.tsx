@@ -19,7 +19,7 @@ const skillCategories: SkillCategory[] = [
     id: 1,
     title: "Frontend",
     icon: <Layout className="h-6 w-6 text-violet-500" />,
-    skills: ["React", "Next.js", "TypeScript", "HTML/CSS", "Tailwind CSS", "Vue.js"]
+    skills: ["React", "Next.js", "TypeScript", "HTML/CSS", "Tailwind CSS"]
   },
   {
     id: 2,
@@ -31,25 +31,25 @@ const skillCategories: SkillCategory[] = [
     id: 3,
     title: "Database",
     icon: <Database className="h-6 w-6 text-violet-500" />,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "Supabase"]
+    skills: ["MongoDB", "PostgreSQL", "MySQL"]
   },
   {
     id: 4,
     title: "DevOps",
     icon: <Terminal className="h-6 w-6 text-violet-500" />,
-    skills: ["Docker", "Kubernetes", "CI/CD", "AWS", "GCP", "Azure"]
+    skills: ["Docker", "GCP"]
   },
   {
     id: 5,
     title: "Languages",
     icon: <Code className="h-6 w-6 text-violet-500" />,
-    skills: ["JavaScript", "TypeScript", "Python", "Java", "C#", "Go"]
+    skills: ["JavaScript", "Python", "Java", "C++"]
   },
   {
     id: 6,
     title: "Tools & Methods",
     icon: <Globe className="h-6 w-6 text-violet-500" />,
-    skills: ["Git", "Agile", "TDD", "JIRA", "Figma", "Jest"]
+    skills: ["Git", "Figma"]
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const skillCategories: SkillCategory[] = [
     id: 8,
     title: "Data & Analytics",
     icon: <BarChart className="h-6 w-6 text-violet-500" />,
-    skills: ["D3.js", "Recharts", "Data Visualization", "Analytics", "Tableau", "Power BI"]
+    skills: ["Data Visualization", "Analytics"]
   },
 ];
 
@@ -71,7 +71,7 @@ export default function Skills() {
       <div className="max-w-3xl mx-auto text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">Technical Skills</h2>
         <p className="text-muted-foreground">
-          Technologies and tools I've worked with throughout my career.
+          Technologies and tools I&apos;ve worked with throughout my career.
         </p>
       </div>
       

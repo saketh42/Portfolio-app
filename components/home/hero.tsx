@@ -27,10 +27,10 @@ export default function Hero() {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-purple-700">
-                Software Developer
+              I am SAKETH
               </span>{" "}
               <br />
-              Creating Modern Web Experiences
+              Building the Future, One Line at a Time
             </h1>
           </motion.div>
           
@@ -40,8 +40,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl"
           >
-            Building innovative solutions with cutting-edge technologies. I specialize in crafting responsive, 
-            user-friendly applications that solve real-world problems.
+            I build innovative solutions using cutting-edge technologies, with a focus on creating responsive, user-friendly applications that solve real-world problems. 
           </motion.p>
           
           <motion.div

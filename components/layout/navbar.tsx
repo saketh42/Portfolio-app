@@ -46,7 +46,7 @@ export default function Navbar() {
               className="flex items-center space-x-2"
             >
               <Code className="h-6 w-6 text-violet-500" />
-              <span className="text-xl font-bold">Portfolio</span>
+              <span className="text-xl font-bold">SAKETH</span>
             </Link>
           </div>
 
