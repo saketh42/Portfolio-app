@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import ParticleBackground from './particles';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
         <ParticleBackground />
       </div>
       
-      <div className="container relative z-10 mx-auto px-4 md:px-6 py-24 md:py-32 lg:py-40">x
+      <div className="container relative z-10 mx-auto px-4 md:px-6 py-24 md:py-32 lg:py-40">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -27,7 +28,16 @@ export default function Hero() {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tighter mb-4">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-purple-700">
-              I am SAKETH
+                <TypeAnimation
+                  sequence={[
+                    '',
+                    1000,
+                    'I am SAKETH',
+                    1000,
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                />
               </span>{" "}
               <br />
               Building the Future, One Line at a Time
