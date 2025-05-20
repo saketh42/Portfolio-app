@@ -7,26 +7,27 @@ import AnimatedSection from "@/components/animations/sections";
 export default function EducationAndExperience() {
     return (
         <AnimatedSection className="space-y-6" delay={0.4}>
-          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">Education & Experience</h2>
-          <div className="grid gap-6 md:grid-cols-2">
-            <Card className="transition-all duration-300 hover:shadow-lg">
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center">Education</h2>
+          <div className="flex justify-center">
+          {/* <div className="grid gap-6 md:grid-cols-2"> */}
+            <Card className="transition-all duration-300 hover:shadow-lg max-w-2xl w-full">
               <CardContent className="p-6 space-y-4">
-                <h3 className="text-xl font-bold">Education</h3>
+                {/* <h3 className="text-xl font-bold">Education</h3> */}
                 <div className="space-y-4">
                   {[
                     {
-                      degree: "Master of Computer Science",
-                      institution: "University of Technology",
-                      year: "2018 - 2020",
+                      degree: "Bachelor of Technology in Computer Science",
+                      institution: "Amrita Vishwa Vidyapeetham",
+                      year: "2022 - present",
                       description:
-                        "Specialized in Software Engineering with focus on web technologies and distributed systems.",
+                        "Pursuing CSE with a focus on full-stack development, AI/ML, and hands-on projects.",
                     },
                     {
-                      degree: "Bachelor of Science in Computer Science",
-                      institution: "State University",
-                      year: "2014 - 2018",
+                      degree: "High School",
+                      institution: "Chinmaya Vidyalaya",
+                      year: "2021 - 2022",
                       description:
-                        "Graduated with honors. Coursework included data structures, algorithms, database systems, and web development.",
+                        "Pursued foundational education with a strong emphasis on academics, discipline, and holistic development.",
                     },
                   ].map((edu, index) => (
                     <div
@@ -42,7 +43,7 @@ export default function EducationAndExperience() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="transition-all duration-300 hover:shadow-lg">
+            {/* <Card className="transition-all duration-300 hover:shadow-lg">
               <CardContent className="p-6 space-y-4">
                 <h3 className="text-xl font-bold">Experience</h3>
                 <div className="space-y-4">
@@ -81,7 +82,7 @@ export default function EducationAndExperience() {
                   ))}
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </AnimatedSection>
     );

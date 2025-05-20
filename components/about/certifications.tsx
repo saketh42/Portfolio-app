@@ -17,31 +17,17 @@ interface Certification {
 const certifications: Certification[] = [
   {
     id: 1,
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "2023",
-    credentialUrl: "#"
+    title: "Career Essentials in Software Development",
+    issuer: "Linkedin and Microsoft",
+    date: "2024",
+    credentialUrl: "https://www.linkedin.com/learning/certificates/15e65075ac6b83349b84591591efb5d8afa95580010e892773e3c073bea4b11e?trk=share_certificate"
   },
   {
     id: 2,
-    title: "Professional Scrum Master I",
-    issuer: "Scrum.org",
+    title: "AI Fundamentals certificate",
+    issuer: "Datacamp",
     date: "2022",
-    credentialUrl: "#"
-  },
-  {
-    id: 3,
-    title: "Google Cloud Professional Developer",
-    issuer: "Google Cloud",
-    date: "2022",
-    credentialUrl: "#"
-  },
-  {
-    id: 4,
-    title: "React Developer Certification",
-    issuer: "Meta",
-    date: "2021",
-    credentialUrl: "#"
+    credentialUrl: "https://www.datacamp.com/skill-verification/AIF0023082677649"
   }
 ];
 

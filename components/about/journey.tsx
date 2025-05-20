@@ -17,42 +17,18 @@ interface TimelineItem {
 const timelineItems: TimelineItem[] = [
   {
     id: 1,
-    title: "Senior Software Developer",
-    organization: "Tech Innovations Inc.",
-    period: "2022 - Present",
-    description: "Leading development of scalable web applications using React and Node.js. Managing a team of 5 developers and implementing CI/CD practices.",
-    type: "work"
-  },
-  {
-    id: 2,
-    title: "Full Stack Developer",
-    organization: "Digital Solutions Ltd.",
-    period: "2020 - 2022",
-    description: "Developed and maintained multiple client web applications. Implemented new features and optimized performance for existing systems.",
-    type: "work"
-  },
-  {
-    id: 3,
-    title: "Master's in Computer Science",
-    organization: "University of Technology",
-    period: "2018 - 2020",
-    description: "Specialized in software engineering and cloud computing. Thesis on scalable microservices architecture.",
+    title: "Bachelor of Science in Computer Science",
+    organization: "Amrita Vishwa Vidyapeetham",
+    period: "2022 - present",
+    description: "Pursuing CSE with a focus on full-stack development, AI/ML, and hands-on projects.",
     type: "education"
   },
   {
-    id: 4,
-    title: "Junior Developer",
-    organization: "StartUp Hub",
-    period: "2017 - 2018",
-    description: "Worked on front-end development using React. Contributed to the design and implementation of user interfaces.",
-    type: "work"
-  },
-  {
-    id: 5,
-    title: "Bachelor's in Computer Science",
-    organization: "State University",
-    period: "2013 - 2017",
-    description: "Fundamentals of programming, data structures, algorithms, and software design principles.",
+    id: 2,
+    title: "High School",
+    organization: "Chinmaya Vidyalaya",
+    period: "2020 - 2022",
+    description: "Completed higher secondary education with a focus on science and mathematics. Participated in coding clubs, tech fests, and laid the foundation for my interest in software development.",
     type: "education"
   }
 ];

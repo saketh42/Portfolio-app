@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-center">Quick Links</h3>
             <nav className="flex flex-col space-y-2">
               <Link href="/" className="text-sm text-center text-muted-foreground hover:text-violet-500 transition-colors">
                 Home
@@ -36,13 +36,13 @@ export default function Footer() {
           <div>
             <h3 className="text-center text-lg font-semibold mb-4">Connect</h3>
             <div className="flex justify-center space-x-4">
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <Link href="https://github.com/saketh42" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-5 w-5 text-muted-foreground hover:text-violet-500 transition-colors" />
               </Link>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <Link href="https://linkedin.com/in/saketh-pai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="h-5 w-5 text-muted-foreground hover:text-violet-500 transition-colors" />
               </Link>
-              <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <Link href="https://x.com/SakethSP" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <Twitter className="h-5 w-5 text-muted-foreground hover:text-violet-500 transition-colors" />
               </Link>
             </div>

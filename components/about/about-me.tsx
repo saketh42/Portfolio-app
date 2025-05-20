@@ -20,7 +20,7 @@ export default function AboutMe() {
         <div className="md:col-span-2">
           <div className="relative w-full max-w-sm mx-auto aspect-square overflow-hidden rounded-2xl">
             <Image
-              src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="./Pic.jpg"
               alt="Profile picture"
               fill
               className="object-cover"
@@ -33,26 +33,20 @@ export default function AboutMe() {
               <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I&apos;m a passionate software developer with over 5 years of experience in building 
-                  web applications and digital solutions for various industries. My journey in 
-                  software development began during my university years and has evolved into a 
-                  fulfilling career focused on creating impactful digital experiences.
+                  I&apos;m a passionate software developer and student, just starting my journey in tech with a strong interest 
+                  in full-stack development and AI/ML. I love bringing ideas to life by building applications that solve 
+                  meaningful problems — from mental health support to productivity enhancement. One such project is HopeLens, 
+                  an app focused on making mental wellness more accessible.
                 </p>
                 <p>
-                  Specializing in full-stack development, I enjoy working with modern JavaScript 
-                  frameworks and libraries to build responsive, user-friendly applications. I&apos;m 
-                  particularly interested in creating solutions that solve real-world problems and 
-                  enhance user experiences.
+                  Curious by nature, I thrive on learning new technologies and tackling real-world challenges through innovative 
+                  solutions. Whether I&amp;m collaborating in a team or building something solo, I find joy in the process of 
+                  creation and iteration.
                 </p>
                 <p>
-                  Beyond coding, I&apos;m an advocate for best practices in software development, including 
-                  test-driven development, continuous integration, and writing clean, maintainable code. 
-                  I believe in lifelong learning and constantly stay updated with the latest technologies 
-                  and industry trends.
-                </p>
-                <p>
-                  When I&apos;m not coding, you can find me exploring new hiking trails, experimenting with 
-                  photography, or contributing to open-source projects.
+                  Outside of coding, I’m into photography, football, and a bit of gaming. I’ve recently started contributing 
+                  to open-source projects, aiming to grow as a developer while giving back to the community. My journey is 
+                  just beginning, but I’m excited to keep learning, building, and growing every step of the way.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 pt-4">
@@ -60,7 +54,7 @@ export default function AboutMe() {
                   <Link href="/contact" className='text-white'>Contact Me</Link>
                 </Button>
                 <Button asChild variant="outline" className="transition-all duration-300 hover:scale-105 group">
-                  <Link href="/resume.pdf" download>
+                  <Link href="./Main.pdf" download>
                     <Download className="mr-2 h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />{" "}
                     Download Resume
                   </Link>

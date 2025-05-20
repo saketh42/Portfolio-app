@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail, MapPin, Phone, Twitter, Code, } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
 import { motion } from "framer-motion"
 import PageTransition from "@/components/contact/page-transition"
@@ -213,10 +213,10 @@ export default function ContactPage() {
                       <h3 className="font-medium">Email</h3>
                       <p className="text-sm text-muted-foreground">
                         <Link
-                          href="mailto:contact@example.com"
+                          href="mailto:sakethspai04@gmail.com"
                           className="hover:text-violet-600 transition-colors duration-300"
                         >
-                          contact@example.com
+                          sakethspai04@gmail.com
                         </Link>
                       </p>
                     </div>
@@ -231,8 +231,8 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Phone</h3>
                       <p className="text-sm text-muted-foreground">
-                        <Link href="tel:+1234567890" className="hover:text-violet-600 transition-colors duration-300">
-                          +1 (234) 567-890
+                        <Link href="tel:+919072242443" className="hover:text-violet-600 transition-colors duration-300">
+                          +91 90722 42443
                         </Link>
                       </p>
                     </div>
@@ -246,7 +246,7 @@ export default function ContactPage() {
                     <MapPin className="h-5 w-5 text-violet-600 mt-0.5" />
                     <div>
                       <h3 className="font-medium">Location</h3>
-                      <p className="text-sm text-muted-foreground">San Francisco, California</p>
+                      <p className="text-sm text-muted-foreground">Thrissur, India</p>
                     </div>
                   </motion.div>
                 </CardContent>
@@ -267,7 +267,7 @@ export default function ContactPage() {
                       transition={{ delay: 0.5 }}
                     >
                       <Link
-                        href="https://github.com"
+                        href="https://github.com/saketh42"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 p-3 rounded-lg border hover:bg-muted transition-all duration-300 hover:scale-105"
@@ -275,7 +275,7 @@ export default function ContactPage() {
                         <Github className="h-5 w-5 text-violet-600" />
                         <div>
                           <h3 className="font-medium">GitHub</h3>
-                          <p className="text-xs text-muted-foreground">@username</p>
+                          <p className="text-xs text-muted-foreground">@saketh42</p>
                         </div>
                       </Link>
                     </motion.div>
@@ -285,7 +285,7 @@ export default function ContactPage() {
                       transition={{ delay: 0.6 }}
                     >
                       <Link
-                        href="https://linkedin.com"
+                        href="https://linkedin.com/in/saketh-pai"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 p-3 rounded-lg border hover:bg-muted transition-all duration-300 hover:scale-105"
@@ -293,7 +293,7 @@ export default function ContactPage() {
                         <Linkedin className="h-5 w-5 text-violet-600" />
                         <div>
                           <h3 className="font-medium">LinkedIn</h3>
-                          <p className="text-xs text-muted-foreground">@username</p>
+                          <p className="text-xs text-muted-foreground">@Saketh Pai</p>
                         </div>
                       </Link>
                     </motion.div>
@@ -303,7 +303,7 @@ export default function ContactPage() {
                       transition={{ delay: 0.7 }}
                     >
                       <Link
-                        href="https://twitter.com"
+                        href="https://x.com/SakethSP"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 p-3 rounded-lg border hover:bg-muted transition-all duration-300 hover:scale-105"
@@ -311,7 +311,7 @@ export default function ContactPage() {
                         <Twitter className="h-5 w-5 text-violet-600" />
                         <div>
                           <h3 className="font-medium">Twitter</h3>
-                          <p className="text-xs text-muted-foreground">@username</p>
+                          <p className="text-xs text-muted-foreground">@SakethSP</p>
                         </div>
                       </Link>
                     </motion.div>
@@ -321,13 +321,13 @@ export default function ContactPage() {
                       transition={{ delay: 0.8 }}
                     >
                       <Link
-                        href="mailto:contact@example.com"
+                        href="leetcode.com/u/saketh42"
                         className="flex items-center gap-3 p-3 rounded-lg border hover:bg-muted transition-all duration-300 hover:scale-105"
                       >
-                        <Mail className="h-5 w-5 text-violet-600" />
+                        <Code className="h-5 w-5 text-violet-600" />
                         <div>
-                          <h3 className="font-medium">Email</h3>
-                          <p className="text-xs text-muted-foreground">contact@example.com</p>
+                          <h3 className="font-medium">Leetcode</h3>
+                          <p className="text-xs text-muted-foreground">@saketh42</p>
                         </div>
                       </Link>
                     </motion.div>
@@ -388,3 +388,5 @@ export default function ContactPage() {
     </PageTransition>
   )
 }
+
+

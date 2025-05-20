@@ -145,11 +145,7 @@ export default function ProjectDetail({ project, id }: ProjectDetailProps) {
                     <div className="text-muted-foreground">Year</div>
                     <div className="transition-all duration-300 hover:text-violet-600">{project.year}</div>
                     <div className="text-muted-foreground">Type</div>
-                    <div className="transition-all duration-300 hover:text-violet-600">Web Application</div>
-                    <div className="text-muted-foreground">Role</div>
-                    <div className="transition-all duration-300 hover:text-violet-600">Full-Stack Developer</div>
-                    <div className="text-muted-foreground">Duration</div>
-                    <div className="transition-all duration-300 hover:text-violet-600">3 months</div>
+                    <div className="transition-all duration-300 hover:text-violet-600">{project.type}</div>
                   </div>
                 </div>
 
